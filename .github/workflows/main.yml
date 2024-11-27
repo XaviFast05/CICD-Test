@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/chechkout@c3
+        uses: actions/checkout@c3
       - name: Setuo MSBuild
         uses: microsoft/setup-msbuild@v2
         
